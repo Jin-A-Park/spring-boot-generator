@@ -100,7 +100,7 @@ src/main/java/{package}/
     └── response/
 
 src/main/resources/
-└── test.http
+└── test.http        ← IntelliJ HTTP Client용 API 테스트 파일 (엔티티별 CRUD 요청 포함)
 ```
 
 ---
