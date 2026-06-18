@@ -8,9 +8,9 @@
 클로드 커맨드를 홈 디렉토리에 전역 등록하면, 이후 어떤 Spring Boot 프로젝트에서 Claude Code를 실행하든 /generate-spring-boot 커맨드를 바로 사용할 수 있습니다.
 
 ```bash
-git clone https://github.com/{your-username}/spring-generator.git
+git clone https://github.com/{your-username}/spring-boot-generator.git
 mkdir -p ~/.claude/commands
-cp spring-generator/.claude/commands/generate-spring-boot.md ~/.claude/commands/
+cp spring-boot-generator/.claude/commands/generate-spring-boot.md ~/.claude/commands/
 ```
 
 ---
