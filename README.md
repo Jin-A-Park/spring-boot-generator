@@ -83,8 +83,6 @@ entities:
   relation: ManyToOne
 ```
 
-현재 `ManyToOne`을 지원합니다.
-
 ---
 
 ## 생성되는 파일 구조
