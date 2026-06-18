@@ -1,6 +1,6 @@
 # Spring Boot Project Generator
 
-`schema.yaml` 하나로 Spring Boot 백엔드 파일을 자동 생성하는 Claude Code 슬래시 커맨드입니다.
+`schema.yaml` 하나로 Spring Boot 백엔드 파일 + http api 테스트 파일까지 자동 생성하는 Claude Code 슬래시 커맨드입니다.
 
 ---
 
