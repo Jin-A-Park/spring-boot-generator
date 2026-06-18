@@ -1,0 +1,28 @@
+package: com.example.myproject
+name: my-project
+java: 17
+bootVersion: 3.5.0
+
+entities:
+  - name: Member
+    fields:
+      - name: loginId
+        type: String
+      - name: nickname
+        type: String
+      - name: email
+        type: String
+      - name: createdAt
+        type: LocalDateTime
+
+  - name: Article
+    fields:
+      - name: title
+        type: String
+      - name: content
+        type: String
+      - name: createdAt
+        type: LocalDateTime
+      - name: member
+        type: Member
+        relation: ManyToOne
