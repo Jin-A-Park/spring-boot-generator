@@ -5,6 +5,7 @@
 ---
 
 ## 설치 (한 번만)
+클로드 커맨드를 홈 디렉토리에 전역 등록하면, 이후 어떤 Spring Boot 프로젝트에서 Claude Code를 실행하든 /generate-spring-boot 커맨드를 바로 사용할 수 있습니다.
 
 ```bash
 git clone https://github.com/{your-username}/spring-generator.git
@@ -17,6 +18,7 @@ cp spring-generator/.claude/commands/generate-spring-boot.md ~/.claude/commands/
 ## 사용법
 
 ### 1단계: 프로젝트 루트에 schema.yaml 작성
+본인 프로젝트의 DB 스키마 디자인이 먼저 선행돼야 합니다. 테이블 간의 관계를 기반으로 더욱 정확하게 생성되는 점 유의해주세요.
 
 ```yaml
 package: com.example.myproject
